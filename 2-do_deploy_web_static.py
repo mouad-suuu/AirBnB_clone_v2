@@ -5,7 +5,7 @@ import os
 
 # Define the remote user and IP addresses of your servers
 env.user = 'ubuntu'
-env.hosts = ['<IP web-01>', '<IP web-02>']
+env.hosts = ['100.25.183.90', '54.144.83.63']
 
 def do_deploy(archive_path):
     """
