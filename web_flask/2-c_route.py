@@ -17,7 +17,7 @@ def index():
 def hbnb():
     """returns HBNB"""
     return 'HBNB'
-.
+
 
 @app.route('/c/<text>', strict_slashes=False)
 def cisfun(text):
